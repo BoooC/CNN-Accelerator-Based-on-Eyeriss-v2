@@ -1,5 +1,6 @@
 Vivado/* linguist-generated=true
 
+*.sv linguist-detectable=false
 *.html linguist-detectable=false
 *.vhdl linguist-detectable=false
 *.vhd linguist-detectable=false
