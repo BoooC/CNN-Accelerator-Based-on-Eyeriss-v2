@@ -1,2 +1,2 @@
-*.VHDL linguist-detectable=false
-*.HTML linguist-detectable=false
+*.vhdl linguist-detectable=false
+*.html linguist-detectable=false
