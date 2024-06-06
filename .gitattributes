@@ -8,3 +8,4 @@
 *.tcl linguist-detectable=false
 *.do linguist-detectable=false
 *.js linguist-detectable=false
+*.xdc linguist-detectable=false
