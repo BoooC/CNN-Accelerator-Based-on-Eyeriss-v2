@@ -1,0 +1,68 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jan  5 15:36:46 2024
+# Process ID: 9008
+# Current directory: C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8116 C:\Users\p8101\Desktop\school\Univ\Special_project\LeNet_5_Eyeriss_v2\sim\PYNQ_Z2\PYNQ_Z2.xpr
+# Log file: C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/vivado.log
+# Journal file: C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.xpr
+launch_simulation
+open_wave_config C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/TOP_integration_uart_tb_behav.wcfg
+source TOP_integration_tb.tcl
+update_compile_order -fileset sources_1
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+run all
+set_property is_enabled true [get_files  C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_integration_rom.v]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/test/tb/TOP_test/TOP_integration_tb.v]
+set_property is_enabled true [get_files  C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/test/tb/TOP_test/TOP_integration_rom_tb.v]
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/ROM_ifmap/ROM_ifmap.xci]
+launch_simulation
+close_sim

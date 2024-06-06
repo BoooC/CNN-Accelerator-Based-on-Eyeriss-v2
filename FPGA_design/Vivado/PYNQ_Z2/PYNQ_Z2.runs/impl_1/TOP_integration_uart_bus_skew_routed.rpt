@@ -1,0 +1,15 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Jan 11 17:12:08 2024
+| Host         : booo running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file TOP_integration_uart_bus_skew_routed.rpt -pb TOP_integration_uart_bus_skew_routed.pb -rpx TOP_integration_uart_bus_skew_routed.rpx
+| Design       : TOP_integration_uart
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.11 2014-09-11
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

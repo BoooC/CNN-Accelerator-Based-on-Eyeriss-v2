@@ -1,0 +1,2 @@
+IP_Iact_Addr_SRAM_BRAM.v,verilog,xil_defaultlib,../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Iact_Addr_SRAM_BRAM/sim/IP_Iact_Addr_SRAM_BRAM.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

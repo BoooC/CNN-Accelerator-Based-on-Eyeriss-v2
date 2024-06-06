@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_integration_uart_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_integration_uart_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="363600000000001fs"></ZoomEndTime>
+      <Cursor1Time time="79385425100000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="331"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wvobject fp_name="/TOP_integration_uart_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/rx_pin_in" type="logic">
+      <obj_property name="ElementShortName">rx_pin_in</obj_property>
+      <obj_property name="ObjectShortName">rx_pin_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/result" type="array">
+      <obj_property name="ElementShortName">result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">result[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/test_error" type="array">
+      <obj_property name="ElementShortName">test_error[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_error[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/test_iter" type="array">
+      <obj_property name="ElementShortName">test_iter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_iter[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/GOLDEN" type="array">
+      <obj_property name="ElementShortName">GOLDEN[0:999][3:0]</obj_property>
+      <obj_property name="ObjectShortName">GOLDEN[0:999][3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/j" type="array">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/dram_data_in" type="array">
+      <obj_property name="ElementShortName">dram_data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dram_data_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/CYCLES" type="array">
+      <obj_property name="ElementShortName">CYCLES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CYCLES[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/SYS_RATE" type="array">
+      <obj_property name="ElementShortName">SYS_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SYS_RATE[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/BAND_RATE" type="array">
+      <obj_property name="ElementShortName">BAND_RATE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BAND_RATE[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/CNT_BAND" type="array">
+      <obj_property name="ElementShortName">CNT_BAND[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CNT_BAND[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/HALF_CNT_BAND" type="array">
+      <obj_property name="ElementShortName">HALF_CNT_BAND[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HALF_CNT_BAND[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_integration_uart_tb/test_iters" type="array">
+      <obj_property name="ElementShortName">test_iters[31:0]</obj_property>
+      <obj_property name="ObjectShortName">test_iters[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,242 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_ifmap_BRAM/sim/IP_ifmap_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_ifmap_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/ROM_sparse_weight/sim/ROM_sparse_weight.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_sparse_weight
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_Psum_Rearrange_BRAM/sim/IP_Psum_Rearrange_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Psum_Rearrange_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_Psum_Data_SRAM_BRAM/sim/IP_Psum_Data_SRAM_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Psum_Data_SRAM_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_Iact_Data_SRAM_BRAM/sim/IP_Iact_Data_SRAM_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Iact_Data_SRAM_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_Iact_Addr_SRAM_BRAM/sim/IP_Iact_Addr_SRAM_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Iact_Addr_SRAM_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_Weight_DATA_Spad_BRAM/sim/IP_Weight_DATA_Spad_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Weight_DATA_Spad_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_Iact_DATA_Spad_BRAM/sim/IP_Iact_DATA_Spad_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Iact_DATA_Spad_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.srcs/sources_1/ip/IP_Psum_DATA_Spad_BRAM/sim/IP_Psum_DATA_Spad_BRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IP_Psum_DATA_Spad_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/CSCSwitcher.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSC_Encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/CSC_switch_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSC_switch_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClusterGroup
+INFO: [VRFC 10-2458] undeclared symbol iact_0_0_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:1919]
+INFO: [VRFC 10-2458] undeclared symbol iact_0_0_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:1922]
+INFO: [VRFC 10-2458] undeclared symbol iact_0_1_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:1967]
+INFO: [VRFC 10-2458] undeclared symbol iact_0_1_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:1970]
+INFO: [VRFC 10-2458] undeclared symbol iact_0_2_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2015]
+INFO: [VRFC 10-2458] undeclared symbol iact_0_2_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2018]
+INFO: [VRFC 10-2458] undeclared symbol iact_1_0_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2063]
+INFO: [VRFC 10-2458] undeclared symbol iact_1_0_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2066]
+INFO: [VRFC 10-2458] undeclared symbol iact_1_1_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2111]
+INFO: [VRFC 10-2458] undeclared symbol iact_1_1_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2114]
+INFO: [VRFC 10-2458] undeclared symbol iact_1_2_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2159]
+INFO: [VRFC 10-2458] undeclared symbol iact_1_2_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2162]
+INFO: [VRFC 10-2458] undeclared symbol iact_2_0_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2207]
+INFO: [VRFC 10-2458] undeclared symbol iact_2_0_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2210]
+INFO: [VRFC 10-2458] undeclared symbol iact_2_1_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2255]
+INFO: [VRFC 10-2458] undeclared symbol iact_2_1_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2258]
+INFO: [VRFC 10-2458] undeclared symbol iact_2_2_north_address_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2303]
+INFO: [VRFC 10-2458] undeclared symbol iact_2_2_north_data_out_ready, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2306]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_0_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2455]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_1_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2456]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_2_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2457]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_0_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2458]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_1_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2459]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_2_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2460]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_0_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2461]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_1_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2462]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_2_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2463]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_0_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2464]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_1_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2465]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_0_2_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2466]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_0_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2467]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_1_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2468]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_2_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2469]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_0_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2470]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_1_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2471]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_2_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2472]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_0_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2473]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_1_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2474]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_2_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2475]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_0_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2476]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_1_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2477]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_1_2_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2478]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_0_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2479]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_1_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2480]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_2_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2481]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_0_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2482]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_1_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2483]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_2_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2484]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_0_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2485]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_1_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2486]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_2_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2487]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_0_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2488]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_1_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2489]
+INFO: [VRFC 10-2458] undeclared symbol cg_ctrl_GLB_iact_2_2_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2490]
+INFO: [VRFC 10-2458] undeclared symbol idle_wire, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup.v:2528]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroupController.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Cluster_Group_Controller
+WARNING: [VRFC 10-3380] identifier 'GLB_iact_all_write_fin' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroupController.v:144]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ClusterGroup_array
+INFO: [VRFC 10-2458] undeclared symbol CG_0_0_psum_acc_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2236]
+INFO: [VRFC 10-2458] undeclared symbol CG_0_1_psum_acc_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2237]
+INFO: [VRFC 10-2458] undeclared symbol CG_1_0_psum_acc_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2238]
+INFO: [VRFC 10-2458] undeclared symbol CG_1_1_psum_acc_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2239]
+INFO: [VRFC 10-2458] undeclared symbol CG_0_0_psum_acc_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2240]
+INFO: [VRFC 10-2458] undeclared symbol CG_0_1_psum_acc_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2241]
+INFO: [VRFC 10-2458] undeclared symbol CG_1_0_psum_acc_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2242]
+INFO: [VRFC 10-2458] undeclared symbol CG_1_1_psum_acc_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ClusterGroup_array.v:2243]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/GLBCluster.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module GLB_Cluster
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActRouter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Iact_Router
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Iact_SRAM_Bank
+INFO: [VRFC 10-2458] undeclared symbol addr_SRAM_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:60]
+INFO: [VRFC 10-2458] undeclared symbol addr_SRAM_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:61]
+INFO: [VRFC 10-2458] undeclared symbol addr_SRAM_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:62]
+INFO: [VRFC 10-2458] undeclared symbol addr_SRAM_read_addr, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:63]
+INFO: [VRFC 10-2458] undeclared symbol addr_SRAM_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:64]
+INFO: [VRFC 10-2458] undeclared symbol data_SRAM_write_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:76]
+INFO: [VRFC 10-2458] undeclared symbol data_SRAM_write_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:77]
+INFO: [VRFC 10-2458] undeclared symbol data_SRAM_read_en, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:78]
+INFO: [VRFC 10-2458] undeclared symbol data_SRAM_read_addr, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:79]
+INFO: [VRFC 10-2458] undeclared symbol data_SRAM_read_done, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:80]
+WARNING: [VRFC 10-2938] 'addr_SRAM_write_en' is already implicitly declared on line 60 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:94]
+WARNING: [VRFC 10-2938] 'addr_SRAM_write_done' is already implicitly declared on line 61 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:95]
+WARNING: [VRFC 10-2938] 'addr_SRAM_read_en' is already implicitly declared on line 62 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:96]
+WARNING: [VRFC 10-2938] 'addr_SRAM_read_done' is already implicitly declared on line 64 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:97]
+WARNING: [VRFC 10-2938] 'data_SRAM_write_en' is already implicitly declared on line 76 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:99]
+WARNING: [VRFC 10-2938] 'data_SRAM_write_done' is already implicitly declared on line 77 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:100]
+WARNING: [VRFC 10-2938] 'data_SRAM_read_en' is already implicitly declared on line 78 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:101]
+WARNING: [VRFC 10-2938] 'data_SRAM_read_done' is already implicitly declared on line 80 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:102]
+WARNING: [VRFC 10-2938] 'addr_SRAM_read_addr' is already implicitly declared on line 63 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:107]
+WARNING: [VRFC 10-2938] 'data_SRAM_read_addr' is already implicitly declared on line 79 [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InActSRAMBank.v:108]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InAct_addr_SRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iact_addr_SRAM
+INFO: [VRFC 10-311] analyzing module Iact_Addr_SRAM_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/InAct_data_SRAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module iact_data_SRAM
+INFO: [VRFC 10-311] analyzing module Iact_Data_SRAM_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/Max_pooling.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Max_pooling
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_Cluster
+INFO: [VRFC 10-2458] undeclared symbol PE_0_0_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:358]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_0_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:359]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_0_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:360]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_1_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:388]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_1_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:389]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_1_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:390]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_2_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:418]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_2_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:419]
+INFO: [VRFC 10-2458] undeclared symbol PE_0_2_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:420]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_0_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:448]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_0_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:449]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_0_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:450]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_1_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:478]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_1_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:479]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_1_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:480]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_2_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:508]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_2_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:509]
+INFO: [VRFC 10-2458] undeclared symbol PE_1_2_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:510]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_0_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:538]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_0_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:539]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_0_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:540]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_1_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:568]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_1_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:569]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_1_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:570]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_2_iact_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:598]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_2_weight_write_fin_clear, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:599]
+INFO: [VRFC 10-2458] undeclared symbol PE_2_2_write_fin, assumed default net type wire [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PECluster.v:600]
+INFO: [Common 17-14] Message 'VRFC 10-2458' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PEClusterInActDataConnections.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_Cluster_Connection
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PEClusterInActv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_Cluster_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PE_data_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_data_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PE_psum_FIFO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PE_psum_FIFO
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PSumRouter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Psum_Router
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PSumSPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Psum_Spad
+INFO: [VRFC 10-311] analyzing module Psum_DATA_Spad_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/PSumSRAMBank.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Psum_SRAM_Bank
+INFO: [VRFC 10-311] analyzing module Psum_Data_SRAM_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ProcessingElement.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProcessingElement
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ProcessingElementControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processing_Element_Controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ProcessingElementPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Processing_Element_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/Psum_Requantizer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Psum_Requantizer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/ReLU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ReLU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/RouterCluster.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Router_Cluster
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_controller
+WARNING: [VRFC 10-3380] identifier 'layer0_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:426]
+WARNING: [VRFC 10-3380] identifier 'layer1_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:427]
+WARNING: [VRFC 10-3380] identifier 'layer2_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:428]
+WARNING: [VRFC 10-3380] identifier 'layer3_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:429]
+WARNING: [VRFC 10-3380] identifier 'layer4_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:430]
+WARNING: [VRFC 10-3380] identifier 'layer0_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:432]
+WARNING: [VRFC 10-3380] identifier 'layer1_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:433]
+WARNING: [VRFC 10-3380] identifier 'layer2_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:434]
+WARNING: [VRFC 10-3380] identifier 'layer3_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:435]
+WARNING: [VRFC 10-3380] identifier 'layer4_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:436]
+WARNING: [VRFC 10-3380] identifier 'layer0_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:438]
+WARNING: [VRFC 10-3380] identifier 'layer1_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:439]
+WARNING: [VRFC 10-3380] identifier 'layer2_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:440]
+WARNING: [VRFC 10-3380] identifier 'layer3_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:441]
+WARNING: [VRFC 10-3380] identifier 'layer4_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:442]
+WARNING: [VRFC 10-3380] identifier 'layer0_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:444]
+WARNING: [VRFC 10-3380] identifier 'layer1_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:445]
+WARNING: [VRFC 10-3380] identifier 'layer2_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:446]
+WARNING: [VRFC 10-3380] identifier 'layer3_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:447]
+WARNING: [VRFC 10-3380] identifier 'layer4_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:448]
+WARNING: [VRFC 10-3380] identifier 'layer0_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:450]
+WARNING: [VRFC 10-3380] identifier 'layer1_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:451]
+WARNING: [VRFC 10-3380] identifier 'layer2_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:452]
+WARNING: [VRFC 10-3380] identifier 'layer3_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:453]
+WARNING: [VRFC 10-3380] identifier 'layer4_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:454]
+WARNING: [VRFC 10-3380] identifier 'layer0_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:456]
+WARNING: [VRFC 10-3380] identifier 'layer1_flag' is used before its declaration [C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_controller.v:457]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_integration.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_integration
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/TOP_interface.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_interface
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/WeightAdrSPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Later_Address_Spad
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/WeightRouter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Weight_Router
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/im2col_converter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module im2col_converter
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/inActAdrSPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Former_Address_Spad
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/inActDataSPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Former_Data_Spad
+INFO: [VRFC 10-311] analyzing module Iact_DATA_Spad_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/psum_SRAM_out_acc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psum_SRAM_out_acc
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/psum_rearrange.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module psum_rearrange
+INFO: [VRFC 10-311] analyzing module Psum_Rearrange_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/softmax.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module softmax
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/src/weightDataSPad.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Later_Data_Spad
+INFO: [VRFC 10-311] analyzing module Weight_DATA_Spad_BRAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/test/tb/TOP_test/TOP_integration_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TOP_integration_tb

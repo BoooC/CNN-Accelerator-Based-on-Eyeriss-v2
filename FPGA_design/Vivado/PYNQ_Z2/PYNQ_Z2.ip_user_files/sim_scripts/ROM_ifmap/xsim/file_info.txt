@@ -1,0 +1,2 @@
+ROM_ifmap.v,verilog,xil_defaultlib,../../../../PYNQ_Z2.srcs/sources_1/ip/ROM_ifmap/sim/ROM_ifmap.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Jan  5 15:17:03 2024
+# Process ID: 10068
+# Current directory: C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10920 C:\Users\p8101\Desktop\school\Univ\Special_project\LeNet_5_Eyeriss_v2\sim\PYNQ_Z2\PYNQ_Z2.xpr
+# Log file: C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/vivado.log
+# Journal file: C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/PYNQ_Z2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/p8101/Desktop/school/Univ/Special_project/LeNet_5_Eyeriss_v2/sim/PYNQ_Z2/TOP_integration_uart_tb_behav.wcfg
+source TOP_integration_tb.tcl
+relaunch_sim
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim

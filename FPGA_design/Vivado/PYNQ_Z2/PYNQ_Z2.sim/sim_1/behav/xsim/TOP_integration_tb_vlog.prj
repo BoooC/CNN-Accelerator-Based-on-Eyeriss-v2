@@ -1,0 +1,56 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../PYNQ_Z2.ip_user_files/ipstatic/hdl" --include "C:/Xilinx/Vivado/2019.1/data/xilinx_vip/include" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_ifmap_BRAM/sim/IP_ifmap_BRAM.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/ROM_sparse_weight/sim/ROM_sparse_weight.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Psum_Rearrange_BRAM/sim/IP_Psum_Rearrange_BRAM.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Psum_Data_SRAM_BRAM/sim/IP_Psum_Data_SRAM_BRAM.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Iact_Data_SRAM_BRAM/sim/IP_Iact_Data_SRAM_BRAM.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Iact_Addr_SRAM_BRAM/sim/IP_Iact_Addr_SRAM_BRAM.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Weight_DATA_Spad_BRAM/sim/IP_Weight_DATA_Spad_BRAM.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Iact_DATA_Spad_BRAM/sim/IP_Iact_DATA_Spad_BRAM.v" \
+"../../../../PYNQ_Z2.srcs/sources_1/ip/IP_Psum_DATA_Spad_BRAM/sim/IP_Psum_DATA_Spad_BRAM.v" \
+"../../../../../../src/CSCSwitcher.v" \
+"../../../../../../src/CSC_switch_FIFO.v" \
+"../../../../../../src/ClusterGroup.v" \
+"../../../../../../src/ClusterGroupController.v" \
+"../../../../../../src/ClusterGroup_array.v" \
+"../../../../../../src/GLBCluster.v" \
+"../../../../../../src/InActRouter.v" \
+"../../../../../../src/InActSRAMBank.v" \
+"../../../../../../src/InAct_addr_SRAM.v" \
+"../../../../../../src/InAct_data_SRAM.v" \
+"../../../../../../src/Max_pooling.v" \
+"../../../../../../src/PECluster.v" \
+"../../../../../../src/PEClusterInActDataConnections.v" \
+"../../../../../../src/PEClusterInActv.v" \
+"../../../../../../src/PE_data_FIFO.v" \
+"../../../../../../src/PE_psum_FIFO.v" \
+"../../../../../../src/PSumRouter.v" \
+"../../../../../../src/PSumSPad.v" \
+"../../../../../../src/PSumSRAMBank.v" \
+"../../../../../../src/ProcessingElement.v" \
+"../../../../../../src/ProcessingElementControl.v" \
+"../../../../../../src/ProcessingElementPad.v" \
+"../../../../../../src/Psum_Requantizer.v" \
+"../../../../../../src/ReLU.v" \
+"../../../../../../src/RouterCluster.v" \
+"../../../../../../src/TOP.v" \
+"../../../../../../src/TOP_controller.v" \
+"../../../../../../src/TOP_integration.v" \
+"../../../../../../src/TOP_interface.v" \
+"../../../../../../src/WeightAdrSPad.v" \
+"../../../../../../src/WeightRouter.v" \
+"../../../../../../src/im2col_converter.v" \
+"../../../../../../src/inActAdrSPad.v" \
+"../../../../../../src/inActDataSPad.v" \
+"../../../../../../src/psum_SRAM_out_acc.v" \
+"../../../../../../src/psum_rearrange.v" \
+"../../../../../../src/softmax.v" \
+"../../../../../../src/weightDataSPad.v" \
+"../../../../../../test/tb/TOP_test/TOP_integration_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
