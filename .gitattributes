@@ -1,3 +1,4 @@
 Vivado/*.html linguist-generated=true
 Vivado/*.vhd linguist-generated=true
-
+Vivado/*.vhdl linguist-generated=true
+Vivado/*.vho linguist-generated=true
