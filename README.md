@@ -15,4 +15,4 @@ The project is divided into two main implementations:
 - **Python Code**: Scripts for generating test data.
 - **Bitstream Files**: Compiled files for FPGA deployment.
 - **Research Paper and Reports**: Comprehensive documentation detailing the research, design, and outcomes of the project.
-- **Demo Video Link**: [Watch the project demo here](#https://www.youtube.com/watch?v=wLz8Di9vdas&ab_channel=BOCHUNChen)
+- **Demo Video Link**: [Watch the project demo here](https://www.youtube.com/watch?v=wLz8Di9vdas&ab_channel=BOCHUNChen)
