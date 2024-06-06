@@ -1,5 +1,3 @@
-Vivado/* linguist-generated=true
-
 *.sv linguist-detectable=false
 *.html linguist-detectable=false
 *.vhdl linguist-detectable=false
@@ -8,9 +6,5 @@ Vivado/* linguist-generated=true
 *.c linguist-detectable=false
 *.sh linguist-detectable=false
 *.tcl linguist-detectable=false
-
-Vivado/*.html linguist-generated=true
-Vivado/*.vhdl linguist-generated=true
-Vivado/*.vhd linguist-generated=true
-Vivado/*.vho linguist-generated=true
-
+*.do linguist-detectable=false
+*.js linguist-detectable=false
