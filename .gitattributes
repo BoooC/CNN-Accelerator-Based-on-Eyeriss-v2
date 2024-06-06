@@ -1,2 +1,2 @@
-*.vhdl linguist-vendored
-*.html linguist-vendored
+*.VHDL linguist-vendored
+*.HTML linguist-vendored
