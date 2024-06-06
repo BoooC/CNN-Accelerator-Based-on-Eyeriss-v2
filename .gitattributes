@@ -1,1 +1,2 @@
-Vivado/PYNQ_Z2/* linguist-generated=true
+*.vhdl linguist-vendored
+*.html linguist-vendored
