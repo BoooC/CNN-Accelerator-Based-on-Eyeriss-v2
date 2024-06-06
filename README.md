@@ -16,7 +16,3 @@ The project is divided into two main implementations:
 - **Bitstream Files**: Compiled files for FPGA deployment.
 - **Research Paper and Reports**: Comprehensive documentation detailing the research, design, and outcomes of the project.
 - **Demo Video Link**: [Watch the project demo here](#https://www.youtube.com/watch?v=wLz8Di9vdas&ab_channel=BOCHUNChen)
-
-## Additional Resources
-
-For further information, updates, and resources, please refer to the documentation and files stored in this repository.
