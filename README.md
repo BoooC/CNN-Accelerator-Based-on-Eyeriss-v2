@@ -9,6 +9,26 @@ The project is divided into two main implementations:
 - **FPGA Implementation**: Includes all source code, FPGA synthesis Bitstream files, and related resources.
 - **ASIC Implementation**: Contains designs and specifications for ASIC realization.
 
+
+## Project Abstract
+Deep Neural Networks (DNN) have proven their exceptional performance in various domains, especially in tasks like image classification and recognition. However, the high computational demands, power consumption, and memory requirements of DNNs underscore the need for specialized hardware accelerators. This project introduces a hardware accelerator architecture based on the Eyeriss v2 framework, specifically tailored for Sparse Convolutional Neural Networks (SCNN). By incorporating the im2col and GEMM data restructuring schemes and a systolic array design, we optimized data flow and enhanced the flexibility of the hardware architecture. Using the OpenROAD tool, we implemented the complete design-to-GDSII process and achieved high-performance inference capabilities on the NanGate 45nm CMOS process.
+
+## Contributions
+- **Improved Eyeriss v2 Architecture:** Innovatively improved upon the existing framework to enhance data reuse and reduce power consumption.
+- **Optimized Data Flow Design:** Through the integration of CSC compression with the Im2col+GEMM approach, optimized data transmission and storage strategies significantly reduce memory footprint and enhance computational efficiency.
+- **Systolic Array Design in NoC:** Introduced a systolic array at the network level, solving traditional design issues with combinational loops, ensuring high efficiency and stability in data transmission.
+
+## Implementation and Experimental Results
+Implemented the ASIC design on a 45nm CMOS technology and validated on FPGA platforms. The hardware accelerator demonstrated outstanding computational speed and energy efficiency, particularly notable when running the MobileNet model, achieving 1559.7 inferences per second.
+
+## Conclusion
+This project successfully implemented a highly efficient and flexible hardware accelerator suitable for sparse convolutional neural networks. Future work will explore broader applications of deep learning models and further optimize the accelerator design to accommodate varying computational demands.
+
+## References
+- Chen, Y.-H., Emer, J., & Sze, V. (2019). Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices. IEEE Journal on Emerging and Selected Topics in Circuits and Systems, 9(2), 292-308.
+- Additional references can be found in the references section of this report.
+
+
 ## Repository Contents
 
 - **Verilog Code**: Circuit design files used for both FPGA and ASIC implementations.
