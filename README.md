@@ -10,6 +10,18 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 - **Optimized Data Flow Design:** Through the integration of CSC compression with the Im2col+GEMM approach, optimized data transmission and storage strategies significantly reduce memory footprint and enhance computational efficiency.
 - **Systolic Array Design in NoC:** Introduced a systolic array at the network level, solving traditional design issues with combinational loops, ensuring high efficiency and stability in data transmission.
 
+## Implementation
+# Top Level Architecture Overview
+
+![Top Level Architecture](picture/top_level_architecture.png)
+
+Building upon the original Eyeriss v2 design, our architecture introduces several key enhancements to perfect the operation of the entire hardware accelerator system. As shown in Fig.2, the core configuration is constructed in an 8x2 cluster array which can be adjusted based on computational needs. This flexibility ensures our design can adapt to various neural network configurations.
+
+The encoder group primarily handles data processing. The Im2col converter reconstructs image data into columns, which are then fed into the CSC encoder for direct compression, significantly reducing SRAM usage. After computation, the cluster array reads the partial sums (psums) from the Global Load Balancer (GLB), and they are passed to the quantizer, which reduces the data representation from 21-bit to 8-bit.
+
+Inside the cluster array, we've equipped various components to achieve optimal performance. The computational core, a PE cluster, consists of a 3x4 array of Processing Elements (PEs) responsible for most of the arithmetic operations in the network. The GLB cluster acts as the memory's SRAM Bank, containing 7 independent SRAMs used for storing intermediate activations (iacts) and psums as detailed in Table I. Finally, the Router cluster is critical for internal data flow, divided into three iact routers, three weight routers, and four psum routers. Furthermore, we've simplified the internal structure of each router compared to the original design, enhancing simplicity and efficiency.
+
+
 ## Experimental Results
 Implemented the ASIC design on a 45nm CMOS technology and validated on FPGA platforms. The hardware accelerator demonstrated outstanding computational speed and energy efficiency, particularly notable when running the MobileNet model, achieving 1559.7 inferences per second.
 
