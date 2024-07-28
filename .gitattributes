@@ -1,1 +1,9 @@
-Vivado/* linguist-vendored
+*.html linguist-detectable=false
+*.vhdl linguist-detectable=false
+*.vhd linguist-detectable=false
+*.vho linguist-detectable=false
+*.c linguist-detectable=false
+*.sh linguist-detectable=false
+*.tcl linguist-detectable=false
+*.do linguist-detectable=false
+*.js linguist-detectable=false
