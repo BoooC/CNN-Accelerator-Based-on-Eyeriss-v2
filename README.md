@@ -33,6 +33,7 @@ The router cluster includes 3 iact routers, 3 weight routers, and 4 psum routers
 
 ### PE Internal Architecture
 ![PE Architecture](picture/PE_architecture.png)
+![CSC format](picture/CSC_format.png)
 Each Processing Element (PE) in our design includes five Scratch Pads (SPads) for data storage as depicted in Fig.6. The weights SPad utilizes SRAM for data storage, while the other SPads use a register file (RF). To process data in CSC compressed format during decoding, the Iact address is first used to determine which location in the Iact data SPad to read. The corresponding weight address is then selected through the iact count, and once the iact and weight data are read, their counts determine where the psum should be written. This architecture supports GEMM operations and allows the same iact to be continuously reused across the corresponding row of weights (internal reuse within a PE, and weights reuse among PEs).
 Our accelerator employs the same three-vector CSC compression format as Eyeriss v2. However, a significant simplification is made where rows with an entire line of zeros in the address vector use the maximum value of the address to represent this, as shown in Fig.7. This not only reduces overall complexity but also eliminates the need for an additional subtractor for control. This design treats the internal workings of each PE as a black box, enhancing flexibility and ease of control at the top level. Additionally, we've modified the count format to directly set the count to the current row number, allowing for direct decoding during read operations without extra logic to compute and store the accumulation of leading zeros.
 Each PE also features a FIFO at its I/O to buffer data transfers between the PE and external sources (vertically from other PEs or the GLB), ensuring data synchronization and integrity. Every PE operates with an independent state machine, which is one of the most complex parts of our system. It contains seven states to decode the CSC format and match iact with weight positions to complete GEMM operations. The results are then added to the psum in the SPad (completing a MAC operation) before being stored back in the SPad or sent externally for further accumulation.
@@ -62,6 +63,9 @@ This design ensures that data flow between components is smooth and efficient, e
 ![Vivado Report](picture/vivado_report.png)
 We have implemented and verified our accelerator on an FPGA platform (2x2 Cluster Groups) using the PYNQ-Z2 board. The implementation process involved synthesizing the Verilog code into a bitstream with Vivado and then programming it onto the PYNQ-Z2. For data transmission, we used the board’s PL-side external GPIOs to directly receive data from a PC.
 Additionally, we designed a UART protocol interface on the platform, allowing the PL side to directly receive data sent from the PC. The model demonstrated on the FPGA is LeNet-5, which is utilized for handwritten digit recognition. On the PC side, we developed a GUI panel in Python that allows users to input handwritten digits. After completing the input, the data is directly transmitted to the FPGA for inference, enhancing the overall interactivity and authenticity of the operational demonstration.
+
+### LeNet-5 demo (handwritten digit recognition)
+![Vivado Report](picture/FPGA_demo.png)
 
 
 ## Experimental Results
