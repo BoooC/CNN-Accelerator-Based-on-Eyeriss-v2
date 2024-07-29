@@ -13,13 +13,17 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 ## System Hierarchy Diagram
 ```mermaid
 graph TD;
+    PC --> FPGA[PYNQ-Z2];
+    FPGA[PYNQ-Z2] --> UART;
+    FPGA[PYNQ-Z2] --> SegDisplay[7-segment display];
+    FPGA[PYNQ-Z2] --> Top;
     Top --> ClusterGroupArray;
     ClusterGroupArray --> ClusterGroup;
     ClusterGroup --> PECluster;
     ClusterGroup --> GLBCluster;
     ClusterGroup --> RouterCluster;
     PECluster --> PE;
-    PE --> PEC;
+    PE --> PEC[PE Core];
     PE --> PEController;
     PE --> FIFO;
     PEC --> FormerAddressSpad;
@@ -47,7 +51,7 @@ graph TD;
     Top --> Pooling;
     Pooling --> MaxPooling;
     Top --> TopController;
-```
+
 
 ## Implementation
 ### Top-Level Architecture
