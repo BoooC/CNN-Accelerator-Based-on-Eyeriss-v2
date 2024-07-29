@@ -69,9 +69,8 @@ Additionally, we designed a UART protocol interface on the platform, allowing th
 
 
 ## Experimental Results
-![ASIC performance](picture/ASIC peformance.jpg)
-
-![Area breakdown](picture/Area breakdown.jpg)
+![ASIC performance](picture/ASIC_peformance.jpg)
+![Area breakdown](picture/Area_breakdown.jpg)
 Implemented the ASIC design on a 45nm CMOS technology and validated on FPGA platforms. The hardware accelerator demonstrated outstanding computational speed and energy efficiency, particularly notable when running the MobileNet model, achieving 1559.7 inferences per second.
 ![Layout](picture/Layout.jpg)
 
