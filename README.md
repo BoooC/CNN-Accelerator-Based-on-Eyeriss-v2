@@ -11,7 +11,7 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 - **Systolic Array Design in NoC:** Introduced a systolic array at the network level, solving traditional design issues with combinational loops, ensuring high efficiency and stability in data transmission.
 
 ## System Hierarchy Diagram
-'''
+```
 mermaid
 graph TD;
     Top-->Cluster_Group_Array;
@@ -48,7 +48,7 @@ graph TD;
     Top-->Pooling;
     Pooling-->Max_Pooling;
     Top-->Top_Controller;
-'''
+```
 
 
 ## Implementation
