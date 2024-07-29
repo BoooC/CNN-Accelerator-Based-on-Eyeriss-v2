@@ -11,40 +11,41 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 - **Systolic Array Design in NoC:** Introduced a systolic array at the network level, solving traditional design issues with combinational loops, ensuring high efficiency and stability in data transmission.
 
 ## System Hierarchy Diagram
-Top
-├── Cluster Group Array
-│ └── Cluster Group (2 x 2)
-│ ├── PE Cluster
-│ │ ├── PE (3 x 3)
-│ │ │ ├── PE Core
-│ │ │ │ ├── Former Address Spad
-│ │ │ │ ├── Former Data Spad
-│ │ │ │ ├── Later Address Spad
-│ │ │ │ ├── Later Data Spad
-│ │ │ │ └── Psum Spad
-│ │ │ ├── PE Controller
-│ │ │ └── FIFO
-│ │ ├── PE Cluster Controller
-│ │ └── PE Connector
-│ ├── GLB Cluster
-│ │ ├── Iact SRAM Bank
-│ │ │ ├── Iact Address SRAM
-│ │ │ └── Iact Data SRAM
-│ │ └── 3 psum SRAM Banks
-│ └── Router Cluster
-│ ├── 3 iact Routers
-│ ├── 3 weight Routers
-│ └── 3 psum Routers
-├── Im2col Converter
-├── Iact CSC Encoder
-├── Weight CSC Encoder
-├── Psum Output Controller
-├── Requantizer
-├── Activation
-│ ├── ReLU
-│ └── Softmax
-├── Pooling (Max Pooling)
-└── Top Controller
+- **Top**
+  - **Cluster Group Array**
+    - **Cluster Group (2 x 2)**
+      - **PE Cluster**
+        - **PE (3 x 3)**
+          - **PE Core**
+            - **Former Address Spad**
+            - **Former Data Spad**
+            - **Later Address Spad**
+            - **Later Data Spad**
+            - **Psum Spad**
+          - **PE Controller**
+          - **FIFO**
+        - **PE Cluster Controller**
+        - **PE Connector**
+      - **GLB Cluster**
+        - **Iact SRAM Bank**
+          - **Iact Address SRAM**
+          - **Iact Data SRAM**
+        - **3 psum SRAM Banks**
+      - **Router Cluster**
+        - **3 iact Routers**
+        - **3 weight Routers**
+        - **3 psum Routers**
+  - **Im2col Converter**
+  - **Iact CSC Encoder**
+  - **Weight CSC Encoder**
+  - **Psum Output Controller**
+  - **Requantizer**
+  - **Activation**
+    - **ReLU**
+    - **Softmax**
+  - **Pooling (Max Pooling)**
+  - **Top Controller**
+
 
 
 ## Implementation
