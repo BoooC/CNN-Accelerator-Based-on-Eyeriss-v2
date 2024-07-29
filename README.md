@@ -11,40 +11,41 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 - **Systolic Array Design in NoC:** Introduced a systolic array at the network level, solving traditional design issues with combinational loops, ensuring high efficiency and stability in data transmission.
 
 ## System Hierarchy Diagram
-- **Top**
-  - | **Cluster Group Array**
-    - | **Cluster Group (2 x 2)**
-      - | **PE Cluster**
-        - | **PE (3 x 3)**
-          - | **PE Core**
-            - | **Former Address Spad**
-            - | **Former Data Spad**
-            - | **Later Address Spad**
-            - | **Later Data Spad**
-            - | **Psum Spad**
-          - | **PE Controller**
-          - | **FIFO**
-        - | **PE Cluster Controller**
-        - | **PE Connector**
-      - | **GLB Cluster**
-        - | **Iact SRAM Bank**
-          - | **Iact Address SRAM**
-          - | **Iact Data SRAM**
-        - | **3 psum SRAM Banks**
-      - | **Router Cluster**
-        - | **3 iact Routers**
-        - | **3 weight Routers**
-        - | **3 psum Routers**
-  - | **Im2col Converter**
-  - | **Iact CSC Encoder**
-  - | **Weight CSC Encoder**
-  - | **Psum Output Controller**
-  - | **Requantizer**
-  - | **Activation**
-    - | **ReLU**
-    - | **Softmax**
-  - | **Pooling (Max Pooling)**
-  - | **Top Controller**
+graph TD;
+    Top-->Cluster_Group_Array;
+    Cluster_Group_Array-->Cluster_Group;
+    Cluster_Group-->PE_Cluster;
+    PE_Cluster-->PE;
+    PE-->PE_Core;
+    PE_Core-->Former_Address_Spad;
+    PE_Core-->Former_Data_Spad;
+    PE_Core-->Later_Address_Spad;
+    PE_Core-->Later_Data_Spad;
+    PE_Core-->Psum_Spad;
+    PE-->PE_Controller;
+    PE-->FIFO;
+    PE_Cluster-->PE_Cluster_Controller;
+    PE_Cluster-->PE_Connector;
+    Cluster_Group-->GLB_Cluster;
+    GLB_Cluster-->Iact_SRAM_Bank;
+    Iact_SRAM_Bank-->Iact_Address_SRAM;
+    Iact_SRAM_Bank-->Iact_Data_SRAM;
+    GLB_Cluster-->Three_psum_SRAM_Banks;
+    Cluster_Group-->Router_Cluster;
+    Router_Cluster-->Three_iact_Routers;
+    Router_Cluster-->Three_weight_Routers;
+    Router_Cluster-->Three_psum_Routers;
+    Top-->Im2col_Converter;
+    Top-->Iact_CSC_Encoder;
+    Top-->Weight_CSC_Encoder;
+    Top-->Psum_Output_Controller;
+    Top-->Requantizer;
+    Top-->Activation;
+    Activation-->ReLU;
+    Activation-->Softmax;
+    Top-->Pooling;
+    Pooling-->Max_Pooling;
+    Top-->Top_Controller;
 
 
 
