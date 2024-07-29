@@ -14,40 +14,18 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 ```
 mermaid
 graph TD;
-    Top-->Cluster_Group_Array;
-    Cluster_Group_Array-->Cluster_Group;
-    Cluster_Group-->PE_Cluster;
-    PE_Cluster-->PE;
-    PE-->PE_Core;
-    PE_Core-->Former_Address_Spad;
-    PE_Core-->Former_Data_Spad;
-    PE_Core-->Later_Address_Spad;
-    PE_Core-->Later_Data_Spad;
-    PE_Core-->Psum_Spad;
-    PE-->PE_Controller;
-    PE-->FIFO;
-    PE_Cluster-->PE_Cluster_Controller;
-    PE_Cluster-->PE_Connector;
-    Cluster_Group-->GLB_Cluster;
-    GLB_Cluster-->Iact_SRAM_Bank;
-    Iact_SRAM_Bank-->Iact_Address_SRAM;
-    Iact_SRAM_Bank-->Iact_Data_SRAM;
-    GLB_Cluster-->Three_psum_SRAM_Banks;
-    Cluster_Group-->Router_Cluster;
-    Router_Cluster-->Three_iact_Routers;
-    Router_Cluster-->Three_weight_Routers;
-    Router_Cluster-->Three_psum_Routers;
-    Top-->Im2col_Converter;
-    Top-->Iact_CSC_Encoder;
-    Top-->Weight_CSC_Encoder;
-    Top-->Psum_Output_Controller;
-    Top-->Requantizer;
-    Top-->Activation;
-    Activation-->ReLU;
-    Activation-->Softmax;
-    Top-->Pooling;
-    Pooling-->Max_Pooling;
-    Top-->Top_Controller;
+國產疫苗-->二期解盲成功就EUA;
+國產疫苗-->三期歐美標準才可EUA;
+二期解盲成功就EUA-->時效派;
+三期歐美標準才可EUA-->標規派;
+時效派-->需公開透明;
+時效派-->需醫界共識;
+時效派-->需預盤風險;
+時效派--->仍可做三期試驗;
+標規派-->延後半年短缺因應;
+仍可做三期試驗-->可跟國外大型藥廠合作試驗;
+
+
 ```
 
 
