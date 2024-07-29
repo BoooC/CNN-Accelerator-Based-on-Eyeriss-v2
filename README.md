@@ -47,7 +47,7 @@ graph TD;
     Top --> Pooling;
     Pooling --> MaxPooling;
     Top --> TopController;
-
+```
 
 ## Implementation
 ### Top-Level Architecture
