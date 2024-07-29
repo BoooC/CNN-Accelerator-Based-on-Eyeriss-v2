@@ -11,47 +11,7 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 - **Systolic Array Design in NoC:** Introduced a systolic array at the network level, solving traditional design issues with combinational loops, ensuring high efficiency and stability in data transmission.
 
 ## System Hierarchy Diagram
-```mermaid
-graph TB;
-    PC ---|传输数据| FPGA[PYNQ-Z2];
-    FPGA[PYNQ-Z2] --- UART;
-    FPGA[PYNQ-Z2] --- SegDisplay[7-segment display];
-    FPGA[PYNQ-Z2] --- Top;
-    Top --- ClusterGroupArray;
-    ClusterGroupArray --- ClusterGroup;
-    ClusterGroup --- PECluster;
-    ClusterGroup --- GLBCluster;
-    ClusterGroup --- RouterCluster;
-    PECluster --- PE;
-    PE --- PEC[PE Core];
-    PE --- PEController;
-    PE --- FIFO;
-    PEC --- FormerAddressSpad;
-    PEC --- FormerDataSpad;
-    PEC --- LaterAddressSpad;
-    PEC --- LaterDataSpad;
-    PEC --- PsumSpad;
-    PECluster --- PEClusterController;
-    PECluster --- PEConnector;
-    GLBCluster --- IactSRAMBank;
-    GLBCluster --- psumSRAMBanks;
-    IactSRAMBank --- IactAddressSRAM;
-    IactSRAMBank --- IactDataSRAM;
-    RouterCluster --- iactRouters;
-    RouterCluster --- weightRouters;
-    RouterCluster --- psumRouters;
-    Top --- Im2colConverter;
-    Top --- IactCSCEncoder;
-    Top --- WeightCSCEncoder;
-    Top --- PsumOutputController;
-    Top --- Requantizer;
-    Top --- Activation;
-    Activation --- ReLU;
-    Activation --- Softmax;
-    Top --- Pooling;
-    Pooling --- MaxPooling;
-    Top --- TopController;
-```
+
 
 ## Implementation
 ### Top-Level Architecture
