@@ -13,6 +13,18 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 ## Implementation
 ### Top-Level Architecture
 ![Top Level Architecture](picture/top_level_architecture.png)
+| Component Level | Description | Details |
+|-----------------|-------------|---------|
+| **Cluster Array** | 8x2 PE Clusters | Adjustable |
+|                 | 8x2 GLB Clusters | Adjustable |
+|                 | 8x2 Router Clusters | Adjustable |
+| **PE Cluster** | 3x3 PEs | Adjustable |
+| **GLB Cluster** | 3x(1.77kB) SRAM banks | For iacts |
+|                 | 4x1.875Kb SRAM banks | For psums |
+| **Router Cluster** | 3 iact routers | - |
+|                 | 3 weight routers | - |
+|                 | 3 psum routers | Adjustable |
+
 Building upon the original Eyeriss v2 design, our architecture introduces several key enhancements to perfect the operation of the entire hardware accelerator system. As shown in Fig, the core configuration is constructed in an 8x2 cluster array which can be adjusted based on computational needs(In FPGA design, it is adjusted to 2x2 cluster array). This flexibility ensures our design can adapt to various neural network configurations.
 The encoder group primarily handles data processing. The Im2col converter reconstructs image data into columns, which are then fed into the CSC encoder for direct compression, significantly reducing SRAM usage. After computation, the cluster array reads the partial sums (psums) from the Global Load Balancer (GLB), and they are passed to the quantizer, which reduces the data representation from 21-bit to 8-bit.
 Inside the cluster array, we've equipped various components to achieve optimal performance. The computational core, a PE cluster, consists of a 3x3 array of Processing Elements (PEs) responsible for most of the arithmetic operations in the network. The GLB cluster acts as the memory's SRAM Bank, containing 7 independent SRAMs used for storing intermediate activations (iacts) and psums . Finally, the Router cluster is critical for internal data flow, divided into three iact routers, three weight routers, and four psum routers. Furthermore, we've simplified the internal structure of each router compared to the original design, enhancing simplicity and efficiency.
