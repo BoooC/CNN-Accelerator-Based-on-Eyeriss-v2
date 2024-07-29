@@ -11,6 +11,65 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 - **Systolic Array Design in NoC:** Introduced a systolic array at the network level, solving traditional design issues with combinational loops, ensuring high efficiency and stability in data transmission.
 
 ## System Hierarchy Diagram
+                                            PC
+                                            |
+                                    FPGA (PYNQ-Z2)
+                                            |
+-------------------------------------------------------------------------------------------------------------
+|                                               |                                                         |
+|                                               |                                                         |
+|                                            UART                                               7-segment display
+|
+|
+|
+|                                                                 Top
+|                                                                -----
+|                                               -------------------------------------------
+|                                               |                  |                       |
+|                                               |                  |                       |
+|                                    Cluster Group Array      Im2col Converter       Top Controller
+|                                               |
+|                                               |
+|                                     Cluster Group
+|                                               |
+|                                               |
+|                                    ---------------------------------------------
+|                                    |               |               |           |
+|                                    |               |               |           |
+|                              PE Cluster       GLB Cluster     Router Cluster  Activation
+|                                    |               |               |           |      
+|                                    |               |               |           |
+|                           ----------------   ---------------   ----------   ----------
+|                           |               | |               | |          | |          |
+|                           |               | |               | |          | |          |
+|                           PE          PE Cluster       Iact SRAM    iact      ReLU
+|                           |          Controller        Bank         Routers
+|                           |                               |        
+|                           |                               |
+|                   -------------------             ----------------
+|                   |        |         |             |              |
+|                   |        |         |             |              |
+|                 PE Core   PE Controller   FIFO   Iact Address SRAM   Iact Data SRAM
+|                   |
+|                   |
+|          -----------------------------------------
+|          |          |          |          |       |
+|          |          |          |          |       |
+|  Former Address   Former Data  Later Address  Later Data   Psum
+|     Spad           Spad          Spad          Spad        Spad
+|
+|
+|
+|
+|
+|
+|                                                         Pooling
+|                                                           |
+|                                                           |
+|                                                     -------------
+|                                                     |           |
+|                                                     |           |
+|                                                   Max Pooling  Softmax
 
 
 ## Implementation
