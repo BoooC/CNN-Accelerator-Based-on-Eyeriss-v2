@@ -22,6 +22,10 @@ This project is the first-place winner of the undergraduate project competition 
 ## TODOs
 - **Software Driver Development:**  
   Development of a software driver for better control and flexibility when deploying different models is a future goal.
+- **CSC Implementation Fix:**  
+  Address the issue in the CSC implementation where it does not support matrices with two consecutive columns of zeros.
+- **Parameterization for Array Size:**  
+  Implement a feature to allow automatic adjustment of array sizes through parameterization, making it easier to adapt the design to different specifications.
 
 ## Project Abstract
 Deep Neural Networks (DNN) have proven their exceptional performance in various domains, especially in tasks like image classification and recognition. However, the high computational demands, power consumption, and memory requirements of DNNs underscore the need for specialized hardware accelerators. This project introduces a hardware accelerator architecture based on the Eyeriss v2 framework, specifically tailored for Sparse Convolutional Neural Networks (SCNN). By incorporating the im2col and GEMM data restructuring schemes and a systolic array design, we optimized data flow and enhanced the flexibility of the hardware architecture. Using the OpenROAD tool, we implemented the complete design-to-GDSII process and achieved high-performance inference capabilities on the NanGate 45nm CMOS process.
