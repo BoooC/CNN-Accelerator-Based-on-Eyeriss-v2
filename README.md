@@ -2,6 +2,27 @@
 
 This project is the first-place winner of the undergraduate project competition at NCHU EE. It features a design that modifies the Eyeriss v2 architecture to create a flexible and energy-efficient accelerator for Sparse Convolutional Neural Networks. Significant improvements include modifying the operational mode of Processing Elements (PEs) to use `im2col` and `GEMM`, overhauling the router logic, and introducing a novel data flow that combines weight stationary, input stationary, and output stationary paradigms.
 
+## Current Project Status
+### FPGA Implementation
+- **Open Source Design:**  
+  This project currently provides an open-source FPGA design. The ASIC design, while conceptually similar, involves some architectural differences and will not be open-sourced.
+- **Top Control for LeNet-5:**  
+  The current FPGA design includes a top control module tailored specifically for LeNet-5. If you wish to infer other models, you will need to modify the top control module or develop a software layer to drive the hardware.
+- **Customization of Array Size:**  
+  The source code allows you to modify the array sizes to meet your specific needs. The original code does not include a parameterized option for automatic array size adjustment. However, you can duplicate the existing structure in the code to fit your desired specifications.
+
+### Known Issues and Limitations
+- **Compressed Sparse Column (CSC) Implementation:**  
+  The CSC implementation supports matrices where the first and last columns contain zeros. However, it does not support cases where two consecutive columns are entirely zeros. To mitigate errors, the last value of the second zero column is filled with a `1`.
+- **Batch Normalization:**  
+  Batch normalization is not currently supported in the hardware design. If you require batch normalization, you would need to either:
+  - Modify the logic in the top control module.
+  - Remove the top control module entirely and handle batch normalization in software. Note that you would need to implement the software support yourself.
+
+## TODOs
+- **Software Driver Development:**  
+  Development of a software driver for better control and flexibility when deploying different models is a future goal.
+
 ## Project Abstract
 Deep Neural Networks (DNN) have proven their exceptional performance in various domains, especially in tasks like image classification and recognition. However, the high computational demands, power consumption, and memory requirements of DNNs underscore the need for specialized hardware accelerators. This project introduces a hardware accelerator architecture based on the Eyeriss v2 framework, specifically tailored for Sparse Convolutional Neural Networks (SCNN). By incorporating the im2col and GEMM data restructuring schemes and a systolic array design, we optimized data flow and enhanced the flexibility of the hardware architecture. Using the OpenROAD tool, we implemented the complete design-to-GDSII process and achieved high-performance inference capabilities on the NanGate 45nm CMOS process.
 
