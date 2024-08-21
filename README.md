@@ -130,5 +130,5 @@ This project successfully implemented a highly efficient and flexible hardware a
 
 ## References
 - Chen, Y.-H., Emer, J., & Sze, V. (2019). Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices. IEEE Journal on Emerging and Selected Topics in Circuits and Systems, 9(2), 292-308.
-- Additional references can be found in the references section of this report.
+- Additional references can be found in the references section of this report.-
 
