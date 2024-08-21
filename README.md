@@ -5,7 +5,7 @@ This project is the first-place winner of the undergraduate project competition 
 ## Current Project Status
 ### FPGA Design Overview
 - **Open Source Design:**  
-  This project currently provides an open-source FPGA design. The ASIC design, while conceptually similar, involves some architectural differences and will not be open-sourced. For example:
+  This project currently provides an open-source FPGA design. It is important to note that this open-source project only offers the most basic prototype of the architecture. The ASIC design, while conceptually similar, involves some architectural differences and will not be open-sourced. For example:
   - The FPGA design does not support the Network-on-Chip (NoC) systolic array, which is implemented in the ASIC design.
   - The Processing Elements (PEs) in the FPGA design do not support pipelining, unlike in the ASIC design where pipelining is utilized for improved performance.
 
