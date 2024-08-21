@@ -5,7 +5,10 @@ This project is the first-place winner of the undergraduate project competition 
 ## Current Project Status
 ### FPGA Implementation
 - **Open Source Design:**  
-  This project currently provides an open-source FPGA design. The ASIC design, while conceptually similar, involves some architectural differences and will not be open-sourced.
+  This project currently provides an open-source FPGA design. The ASIC design, while conceptually similar, involves some architectural differences and will not be open-sourced. For example:
+  - The FPGA design does not support the Network-on-Chip (NoC) systolic array, which is implemented in the ASIC design.
+  - The Processing Elements (PEs) in the FPGA design do not support pipelining, unlike in the ASIC design where pipelining is utilized for improved performance.
+
 - **Top Control for LeNet-5:**  
   The current FPGA design includes a top control module tailored specifically for LeNet-5. If you wish to infer other models, you will need to modify the top control module or develop a software layer to drive the hardware.
 - **Customization of Array Size:**  
