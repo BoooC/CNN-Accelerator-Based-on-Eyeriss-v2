@@ -3,7 +3,7 @@
 This project is the first-place winner of the undergraduate project competition at NCHU EE. It features a design that modifies the Eyeriss v2 architecture to create a flexible and energy-efficient accelerator for Sparse Convolutional Neural Networks. Significant improvements include modifying the operational mode of Processing Elements (PEs) to use `im2col` and `GEMM`, overhauling the router logic, and introducing a novel data flow that combines weight stationary, input stationary, and output stationary paradigms.
 
 ## Current Project Status
-### FPGA Implementation
+### FPGA Design Overview
 - **Open Source Design:**  
   This project currently provides an open-source FPGA design. The ASIC design, while conceptually similar, involves some architectural differences and will not be open-sourced. For example:
   - The FPGA design does not support the Network-on-Chip (NoC) systolic array, which is implemented in the ASIC design.
