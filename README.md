@@ -2,6 +2,13 @@
 
 This project is the first-place winner of the undergraduate project competition at NCHU EE. It features a design that modifies the Eyeriss v2 architecture to create a flexible and energy-efficient accelerator for Sparse Convolutional Neural Networks. Significant improvements include modifying the operational mode of Processing Elements (PEs) to use `im2col` and `GEMM`, overhauling the router logic, and introducing a novel data flow that combines weight stationary, input stationary, and output stationary paradigms.
 
+## Repository Contents
+- **Verilog Code**: Circuit design files used for FPGA implementations.
+- **Python Code**: Scripts for generating test data.
+- **Bitstream Files**: Compiled files for FPGA deployment.
+- **Research Paper and Reports**: Comprehensive documentation detailing the research, design, and outcomes of the project.
+- **Demo Video Link**: [Watch the project demo here](https://www.youtube.com/watch?v=wLz8Di9vdas&ab_channel=BOCHUNChen)
+- 
 ## Current Project Status
 ### FPGA Design Overview
 - **Open Source Design:**  
@@ -125,11 +132,3 @@ This project successfully implemented a highly efficient and flexible hardware a
 - Chen, Y.-H., Emer, J., & Sze, V. (2019). Eyeriss v2: A Flexible Accelerator for Emerging Deep Neural Networks on Mobile Devices. IEEE Journal on Emerging and Selected Topics in Circuits and Systems, 9(2), 292-308.
 - Additional references can be found in the references section of this report.
 
-
-## Repository Contents
-
-- **Verilog Code**: Circuit design files used for both FPGA and ASIC implementations.
-- **Python Code**: Scripts for generating test data.
-- **Bitstream Files**: Compiled files for FPGA deployment.
-- **Research Paper and Reports**: Comprehensive documentation detailing the research, design, and outcomes of the project.
-- **Demo Video Link**: [Watch the project demo here](https://www.youtube.com/watch?v=wLz8Di9vdas&ab_channel=BOCHUNChen)
