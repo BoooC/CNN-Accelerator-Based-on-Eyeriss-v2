@@ -51,8 +51,8 @@ Deep Neural Networks (DNN) have proven their exceptional performance in various 
 |                 | 8x2 GLB Clusters | Adjustable |
 |                 | 8x2 Router Clusters | Adjustable |
 | **PE Cluster** | 3x3 PEs | Adjustable |
-| **GLB Cluster** | 3x(1.77kB) SRAM banks | For iacts |
-|                 | 4x1.875Kb SRAM banks | For psums |
+| **GLB Cluster** | 3x1.77kB SRAM banks | For iacts |
+|                 | 4x1.875kB SRAM banks | For psums |
 | **Router Cluster** | 3 iact routers | - |
 |                 | 3 weight routers | - |
 |                 | 3 psum routers | Adjustable |
