@@ -24,10 +24,7 @@ This project is the first-place winner of the undergraduate project competition 
 ### Known Issues and Limitations
 - **Compressed Sparse Column (CSC) Implementation:**  
   The CSC implementation supports matrices where the first and last columns contain zeros. However, it does not support cases where two consecutive columns are entirely zeros. To mitigate errors, the last value of the second zero column is filled with a `1`.
-- **Batch Normalization:**  
-  Batch normalization is not currently supported in the hardware design. If you require batch normalization, you would need to either:
-  - Modify the logic in the top control module.
-  - Remove the top control module entirely and handle batch normalization in software. Note that you would need to implement the software support yourself.
+
 
 ## TODOs
 - **Software Driver Development:**  
